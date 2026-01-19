@@ -1,0 +1,13 @@
+{
+  "name": "fast-cheap-good",
+  "description": "A simple web app to demonstrate the project management triangle: fast, cheap, good.",
+  "scripts": {
+    "serve": "python3 -m http.server 3000 --bind 127.0.0.1 -d src"
+  },
+   "author": {
+    "name": "Alexander Zaytsev",
+    "email": "zaytsev126@gmail.com",
+    "url": "https://x.com/_shoonia"
+  },
+  "license": "MIT"
+}

@@ -1,1 +1,1 @@
-# fast-cheap-good
+# Fast Cheap Good
