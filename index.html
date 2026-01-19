@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast, Cheap, Good - Pick Two</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>The Project Management Triangle</h1>
+        <p class="subtitle">You can only pick two</p>
+        
+        <div class="options">
+            <label class="option">
+                <input type="checkbox" id="fast" value="fast">
+                <span class="checkmark"></span>
+                <div class="option-content">
+                    <h2>Fast</h2>
+                    <p>Quick turnaround time</p>
+                </div>
+            </label>
+            
+            <label class="option">
+                <input type="checkbox" id="cheap" value="cheap">
+                <span class="checkmark"></span>
+                <div class="option-content">
+                    <h2>Cheap</h2>
+                    <p>Low cost solution</p>
+                </div>
+            </label>
+            
+            <label class="option">
+                <input type="checkbox" id="good" value="good">
+                <span class="checkmark"></span>
+                <div class="option-content">
+                    <h2>Good</h2>
+                    <p>High quality result</p>
+                </div>
+            </label>
+        </div>
+        
+        <div class="result" id="result"></div>
+        
+        <div class="explanation">
+            <h3>How it works:</h3>
+            <p>The project management triangle illustrates that you cannot have all three qualities simultaneously:</p>
+            <ul>
+                <li><strong>Fast + Cheap:</strong> You'll sacrifice quality</li>
+                <li><strong>Fast + Good:</strong> It won't be cheap</li>
+                <li><strong>Cheap + Good:</strong> It will take time</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
