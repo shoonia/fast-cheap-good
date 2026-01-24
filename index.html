@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Fast Cheap Good</title>
+  <meta name="google-site-verification" content="JkNxAfkbyATcDv733CZNZPVT9UPc4rJNXxd31OgDwvY">
   <meta name="description" content="A simple web app to demonstrate the project management triangle: fast, cheap, good.">
+  <title>Fast Cheap Good</title>
+  <link rel="canonical" href="https://shoonia.github.io/fast-cheap-good/">
   <style>
     html,
     body {
@@ -85,39 +87,40 @@
   </style>
 </head>
 <body>
-  <form>
-    <div class="box">
-      <label class="switch">
-        <input type="checkbox" name="fast" id="fast" />
-        <span class="slider"></span>
-      </label>
-      <label for="fast" class="title">
-        Fast
-      </label>
-    </div>
-    <div class="box">
-      <label class="switch">
-        <input type="checkbox" name="cheap" id="cheap" />
-        <span class="slider"></span>
-      </label>
-      <label for="cheap" class="title">
-        Cheap
-      </label>
-    </div>
-    <div class="box">
-      <label class="switch">
-        <input type="checkbox" name="good" id="good" />
-        <span class="slider"></span>
-      </label>
-      <label for="good" class="title">
-        Good
-      </label>
-    </div>
-  </form>
+  <main aria-label="Fast Cheap Good">
+    <form>
+      <div class="box">
+        <label class="switch">
+          <input type="checkbox" name="fast" id="fast" />
+          <span class="slider"></span>
+        </label>
+        <label for="fast" class="title">
+          Fast
+        </label>
+      </div>
+      <div class="box">
+        <label class="switch">
+          <input type="checkbox" name="cheap" id="cheap" />
+          <span class="slider"></span>
+        </label>
+        <label for="cheap" class="title">
+          Cheap
+        </label>
+      </div>
+      <div class="box">
+        <label class="switch">
+          <input type="checkbox" name="good" id="good" />
+          <span class="slider"></span>
+        </label>
+        <label for="good" class="title">
+          Good
+        </label>
+      </div>
+    </form>
+  </main>
   <script>
     const [form] = document.forms;
     const { fast, cheap, good } = form;
-
     let last;
 
     form.addEventListener('change', ({ target }) => {
